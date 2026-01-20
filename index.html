@@ -1,11 +1,131 @@
 <!DOCTYPE html>
-<html lang="en">
+<html lang="es">
 <head>
-    <meta charset="UTF-8">
-    <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>Document</title>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Equilibrio 360° | Bienestar y Asistencia Laboral</title>
+
+  <!-- Tailwind CSS CDN -->
+  <script src="https://cdn.tailwindcss.com"></script>
+
+  <style>
+    body {
+      font-family: Arial, sans-serif;
+    }
+  </style>
 </head>
-<body>
-   HOLA 
+<body class="bg-gray-50">
+
+<!-- HERO SECTION -->
+<header class="bg-indigo-700 text-white">
+  <div class="container mx-auto px-6 py-20 text-center">
+    <h1 class="text-4xl md:text-5xl font-bold mb-4">
+      Equilibrio 360°
+    </h1>
+    <p class="text-lg mb-6">
+      Plataforma integral de bienestar emocional y reducción del ausentismo laboral en call centers.
+    </p>
+    <a href="#registro"
+       class="bg-white text-indigo-700 font-semibold px-6 py-3 rounded-lg shadow-md hover:bg-gray-200">
+      Solicitar demo gratuita
+    </a>
+  </div>
+</header>
+
+<!-- PROBLEMA -->
+section class="container mx-auto px-6 py-16">
+  <h2 class="text-3xl font-bold text-center mb-6">El problema en los call centers</h2>
+  <div class="grid md:grid-cols-3 gap-6">
+    <div class="bg-white p-6 rounded-lg shadow">
+      <h3 class="font-bold text-xl mb-2">Estrés constante</h3>
+      <p>Alta carga laboral, presión por KPIs y llamadas difíciles.</p>
+    </div>
+    <div class="bg-white p-6 rounded-lg shadow">
+      <h3 class="font-bold text-xl mb-2">Falta de apoyo emocional</h3>
+      <p>Colaboradores se sienten solos y poco valorados.</p>
+    </div>
+    <div class="bg-white p-6 rounded-lg shadow">
+      <h3 class="font-bold text-xl mb-2">Ausentismo recurrente</h3>
+      <p>Impacta productividad, clima laboral y calidad de servicio.</p>
+    </div>
+  </div>
+</section>
+
+<!-- SOLUCIÓN -->
+<section class="bg-indigo-50 py-16">
+  <div class="container mx-auto px-6">
+    <h2 class="text-3xl font-bold text-center mb-8">
+      Nuestra solución: Equilibrio 360°
+    </h2>
+
+    <div class="grid md:grid-cols-2 gap-8">
+      <div class="bg-white p-6 rounded-lg shadow">
+        <h3 class="font-bold text-xl mb-2">Plataforma de bienestar</h3>
+        <p>Microcápsulas de manejo del estrés y pausas activas automáticas.</p>
+      </div>
+
+      <div class="bg-white p-6 rounded-lg shadow">
+        <h3 class="font-bold text-xl mb-2">Horarios adaptativos</h3>
+        <p>Intercambio de turnos y descansos personalizados.</p>
+      </div>
+
+      <div class="bg-white p-6 rounded-lg shadow">
+        <h3 class="font-bold text-xl mb-2">Soporte emocional</h3>
+        <p>Orientación psicológica breve y acompañamiento.</p>
+      </div>
+
+      <div class="bg-white p-6 rounded-lg shadow">
+        <h3 class="font-bold text-xl mb-2">Gamificación y reconocimiento</h3>
+        <p>Insignias, estrellas y recompensas por asistencia y desempeño.</p>
+      </div>
+    </div>
+  </div>
+</section>
+
+<!-- BENEFICIOS -->
+<section class="container mx-auto px-6 py-16">
+  <h2 class="text-3xl font-bold text-center mb-8">Impacto esperado</h2>
+
+  <div class="grid md:grid-cols-3 gap-6 text-center">
+    <div class="bg-white p-6 rounded-lg shadow">
+      <h3 class="font-bold text-xl">-20% a -40%</h3>
+      <p>Reducción del ausentismo laboral.</p>
+    </div>
+
+    <div class="bg-white p-6 rounded-lg shadow">
+      <h3 class="font-bold text-xl">Mejor clima laboral</h3>
+      <p>Más motivación y compromiso del equipo.</p>
+    </div>
+
+    <div class="bg-white p-6 rounded-lg shadow">
+      <h3 class="font-bold text-xl">Menos rotación</h3>
+      <p>Mayor estabilidad operativa.</p>
+    </div>
+  </div>
+</section>
+
+<!-- REGISTRO / CTA -->
+<section id="registro" class="bg-indigo-700 text-white py-16">
+  <div class="container mx-auto px-6 text-center">
+    <h2 class="text-3xl font-bold mb-4">Solicita una demo gratuita</h2>
+    <p class="mb-6">Descubre cómo Equilibrio 360° puede transformar tu call center.</p>
+
+    <form class="max-w-lg mx-auto bg-white p-6 rounded-lg shadow">
+      <input type="text" placeholder="Nombre de la empresa"
+             class="w-full p-2 mb-4 border rounded">
+      <input type="email" placeholder="Correo corporativo"
+             class="w-full p-2 mb-4 border rounded">
+      <button class="bg-indigo-700 text-white px-6 py-2 rounded-lg w-full">
+        Enviar solicitud
+      </button>
+    </form>
+  </div>
+</section>
+
+<!-- FOOTER -->
+<footer class="bg-gray-800 text-white text-center py-6">
+  <p>© 2026 Equilibrio 360°. Todos los derechos reservados.</p>
+</footer>
+
 </body>
 </html>
