@@ -3,3 +3,9 @@
     padding: 0;
 }
 
+:root {
+  --color-celeste: #4ABDAC;   
+  --color-naranja: #FC4A1A; 
+  --color-amarillo: #F7B733;     
+  --color-blanco: #dfdce3;
+}

@@ -4,11 +4,17 @@
   <meta charset="UTF-8">
   <meta name="viewport" content="width=device-width, initial-scale=1.0">
   <title>Equilibrio 360° | Bienestar y Asistencia Laboral</title>
+  <link rel="preconnect" href="https://fonts.googleapis.com">
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+  <link href="https://fonts.googleapis.com/css2?family=Quicksand:wght@300..700&display=swap" rel="stylesheet">
 
   <!-- Tailwind CSS CDN -->
   <script src="https://cdn.tailwindcss.com"></script>
 
   <style>
+    body {
+      font-family: 'Quicksand', sans-serif;
+    }
     html {
       scroll-behavior: smooth; /* Hace que el scroll sea suave */
     }
@@ -17,16 +23,16 @@
 <body class="bg-gray-50">
 
 <!-- NAVBAR (RESPONSIVE Y FIJO) -->
-<nav class="bg-white shadow-md sticky top-0 z-50">
+<nav class="shadow-md sticky top-0 z-50" style="background-color: #FC4A1A;">
   <div class="container mx-auto px-6 py-4 flex justify-between items-center">
-    <a href="#" class="text-xl font-bold text-indigo-700">Equilibrio 360°</a>
-
+    <a href="#" class="text-xl font-bold text-white">Equilibrio 360°</a>
+    
     <div class="hidden md:flex space-x-6">
-      <a href="#inicio" class="text-gray-700 hover:text-indigo-700">Inicio</a>
-      <a href="#problema" class="text-gray-700 hover:text-indigo-700">Problema</a>
-      <a href="#solucion" class="text-gray-700 hover:text-indigo-700">Nuestra solución</a>
-      <a href="#impacto" class="text-gray-700 hover:text-indigo-700">Impacto</a>
-      <a href="#registro" class="text-gray-700 hover:text-indigo-700">Contacto</a>
+      <a href="#inicio" class="text-white hover:text-indigo-700">Inicio</a>
+      <a href="#problema" class="text-white hover:text-indigo-700">Problema</a>
+      <a href="#solucion" class="text-white hover:text-indigo-700">Nuestra solución</a>
+      <a href="#impacto" class="text-white hover:text-indigo-700">Impacto</a>
+      <a href="#registro" class="text-white hover:text-indigo-700">Contacto</a>
     </div>
 
     <!-- Botón menú móvil -->
@@ -46,8 +52,9 @@
 </nav>
 
 <!-- HERO SECTION -->
-<header id="inicio" class="bg-indigo-700 text-white">
+<header id="inicio" class="bg-indigo-700 text-white" style="background-color: #4ABDAC;">
   <div class="container mx-auto px-6 py-20 text-center">
+  <img src="../ITA/image/portada.jpg" alt="Portada de Equilibrio 360°">
     <h1 class="text-4xl md:text-5xl font-bold mb-4">
       Equilibrio 360°
     </h1>
