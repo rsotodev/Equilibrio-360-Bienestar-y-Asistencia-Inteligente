@@ -181,35 +181,79 @@
   <h2 class="text-3xl font-bold text-center mb-8">Impacto esperado</h2>
 
   <div class="grid md:grid-cols-3 gap-6 text-center">
-    <div class="bg-white p-6 rounded-lg shadow">
-      <h3 class="font-bold text-xl">-20% a -40%</h3>
-      <p>Reducción del ausentismo laboral.</p>
-    </div>
 
-    <div class="bg-white p-6 rounded-lg shadow">
-      <h3 class="font-bold text-xl">Mejor clima laboral</h3>
-      <p>Más motivación y compromiso del equipo.</p>
-    </div>
+  <!-- CARD 1 -->
+  <div class="group bg-white p-6 rounded-lg shadow
+              transition-all duration-300
+              hover:-translate-y-2 hover:shadow-xl">
 
-    <div class="bg-white p-6 rounded-lg shadow">
-      <h3 class="font-bold text-xl">Menos rotación</h3>
-      <p>Mayor estabilidad operativa.</p>
-    </div>
+    <svg class="w-10 h-10 mx-auto mb-4 text-[#4ABDAC]
+                transition-transform duration-300
+                group-hover:scale-125 group-hover:-rotate-6"
+         fill="none" stroke="currentColor" stroke-width="2"
+         viewBox="0 0 24 24">
+      <path d="M3 17l6-6 4 4 8-8"/>
+      <path d="M14 7h7v7"/>
+    </svg>
+
+    <h3 class="font-extrabold text-xl mb-1">-20% a -40%</h3>
+    <p>Reducción del ausentismo laboral.</p>
   </div>
+
+  <!-- CARD 2 -->
+  <div class="group bg-white p-6 rounded-lg shadow
+              transition-all duration-300
+              hover:-translate-y-2 hover:shadow-xl">
+
+    <svg class="w-10 h-10 mx-auto mb-4 text-[#F7B733]
+                transition-transform duration-300
+                group-hover:scale-125 group-hover:rotate-6"
+         fill="none" stroke="currentColor" stroke-width="2"
+         viewBox="0 0 24 24">
+      <path d="M17 21v-2a4 4 0 0 0-4-4H5a4 4 0 0 0-4 4v2"/>
+      <circle cx="9" cy="7" r="4"/>
+      <path d="M23 21v-2a4 4 0 0 0-3-3.87"/>
+      <path d="M16 3.13a4 4 0 0 1 0 7.75"/>
+    </svg>
+
+    <h3 class="font-extrabold text-xl mb-1">Mejor clima laboral</h3>
+    <p>Más motivación y compromiso del equipo.</p>
+  </div>
+
+  <!-- CARD 3 -->
+  <div class="group bg-white p-6 rounded-lg shadow
+              transition-all duration-300
+              hover:-translate-y-2 hover:shadow-xl">
+
+    <svg class="w-10 h-10 mx-auto mb-4 text-[#FC4A1A]
+                transition-transform duration-300
+                group-hover:scale-125 group-hover:rotate-12"
+         fill="none" stroke="currentColor" stroke-width="2"
+         viewBox="0 0 24 24">
+      <circle cx="12" cy="8" r="7"/>
+      <path d="M8.21 13.89L7 23l5-3 5 3-1.21-9.11"/>
+    </svg>
+
+    <h3 class="font-extrabold text-xl mb-1">Menos rotación</h3>
+    <p>Mayor estabilidad operativa.</p>
+  </div>
+
+</div>
+
 </section>
 
 <!-- REGISTRO / CTA -->
-<section id="registro" class="bg-indigo-700 text-white py-16">
+<section id="registro" class=" bg-[#FF7A5A] text-white py-16">
   <div class="container mx-auto px-6 text-center">
     <h2 class="text-3xl font-bold mb-4">Solicita una demo gratuita</h2>
     <p class="mb-6">Descubre cómo Equilibrio 360° puede transformar tu call center.</p>
 
     <form class="max-w-lg mx-auto bg-white p-6 rounded-lg shadow">
       <input type="text" placeholder="Nombre de la empresa"
-             class="w-full p-2 mb-4 border rounded">
-      <input type="email" placeholder="Correo corporativo"
-             class="w-full p-2 mb-4 border rounded">
-      <button class="bg-indigo-700 text-white px-6 py-2 rounded-lg w-full">
+             class="w-full text-black p-2 mb-4 border rounded">
+      <input type="email" placeholder="Correo corporativo" required
+             class="w-full text-black p-2 mb-4 border rounded"/>
+      <button class="bg-gray-900 text-white px-6 py-2 rounded-lg w-full">
         Enviar solicitud
       </button>
     </form>
