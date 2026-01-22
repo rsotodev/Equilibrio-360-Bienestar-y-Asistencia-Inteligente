@@ -8,6 +8,16 @@
   <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
   <link href="https://fonts.googleapis.com/css2?family=Quicksand:wght@300..700&display=swap" rel="stylesheet">
 
+  <!-- Google Analytics -->
+  <script async src="https://www.googletagmanager.com/gtag/js?id=G-NMR4JRV34R"></script>
+  <script>
+    window.dataLayer = window.dataLayer || [];
+    function gtag(){dataLayer.push(arguments);}
+    gtag('js', new Date());
+
+    gtag('config', 'G-NMR4JRV34R');
+  </script>  
+  
   <!-- Tailwind CSS CDN -->
   <script src="https://cdn.tailwindcss.com"></script>
 
@@ -22,8 +32,14 @@
 </head>
 <body class="bg-gray-50">
 
+<div style="
+    background-image: url('image/portada.jpg');
+    background-size: cover;
+    background-position: center 10%;
+    background-repeat: no-repeat;
+  ">
 <!-- NAVBAR (RESPONSIVE Y FIJO) -->
-<nav class="shadow-md sticky top-0 z-50" style="background-color: #FC4A1A;">
+<nav class="fixed top-0 left-0 w-full z-50 bg-transparent backdrop-brightness-75">
   <div class="container mx-auto px-6 py-4 flex justify-between items-center">
     <a href="#" class="text-xl font-bold text-white">Equilibrio 360°</a>
     
@@ -52,22 +68,24 @@
 </nav>
 
 <!-- HERO SECTION -->
-<header id="inicio" class="bg-indigo-700 text-white" style="background-color: #4ABDAC;">
-  <div class="container mx-auto px-6 py-20 text-center">
-  <img src="../ITA/image/portada.jpg" alt="Portada de Equilibrio 360°">
+<header id="inicio" class="text-white">
+  <div class="container mx-auto px-4 py-40 text-right backdrop-brightness-75">
     <h1 class="text-4xl md:text-5xl font-bold mb-4">
       Equilibrio 360°
     </h1>
-    <p class="text-lg mb-6">
-      Plataforma integral de bienestar emocional y reducción del ausentismo laboral en call centers.
+    <p class="text-lg mb-3">
+      Plataforma integral de bienestar emocional y asistencia laboral 
+    </p>
+    <p class="text-lg mb-8">
+       para call centers.
     </p>
     <a href="#registro"
-       class="bg-white text-indigo-700 font-semibold px-6 py-3 rounded-lg shadow-md hover:bg-gray-200">
+       class="bg-white text-black font-semibold px-6 py-3 rounded-lg shadow-md hover:bg-gray-200" style="background-color: #F7B733;">
       Solicitar demo gratuita
     </a>
   </div>
 </header>
-
+</div>
 <!-- PROBLEMA -->
 <section id="problema" class="container mx-auto px-6 py-16">
   <h2 class="text-3xl font-bold text-center mb-6">El problema en los call centers</h2>
